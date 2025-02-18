@@ -1,0 +1,57 @@
+Microsoft Visual Studio Community 2022
+Version 17.13.0
+VisualStudio.17.Release/17.13.0+35806.99
+Microsoft .NET Framework
+Version 4.8.09032
+
+Installed Version: Community
+
+Visual C++ 2022   00482-90000-00000-AA317
+Microsoft Visual C++ 2022
+
+ASP.NET and Web Tools   17.13.124.35287
+ASP.NET and Web Tools
+
+Azure App Service Tools v3.0.0   17.13.124.35287
+Azure App Service Tools v3.0.0
+
+C# Tools   4.13.0-3.25105.4+400efa2d94b217101a0ca61e84a3812fdc2fec52
+C# components used in the IDE. Depending on your project type and settings, a different version of the compiler may be used.
+
+Intel® C++ Compiler   2025.0
+Intel® C++ Compiler 2025.0, Copyright © 2002-2024 Intel Corporation. All rights reserved.
+
+Intel® Libraries for oneAPI   2025.0
+Intel® Libraries for oneAPI 2025.0, Copyright © 2019-2024 Intel Corporation. All rights reserved.
+
+Intel® oneAPI DPC++ Compiler   2025.0
+Intel® oneAPI DPC++ Compiler 2025.0, Copyright © 2019-2024 Intel Corporation. All rights reserved.
+
+Intel® oneAPI Menu & Samples   10.10.392.9731
+Intel® oneAPI Visual Studio Menu & Samples Extension
+
+Microsoft JVM Debugger   1.0
+Provides support for connecting the Visual Studio debugger to JDWP compatible Java Virtual Machines
+
+Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law.
+
+NVIDIA Nsight Visual Studio Edition - CUDA support   2025.1.0.25002
+NVIDIA Nsight Visual Studio Edition - CUDA support provides tools for CUDA development and debugging.
+
+Test Adapter for Boost.Test   1.0
+Enables Visual Studio's testing tools with unit tests written for Boost.Test.  The use terms and Third Party Notices are available in the extension installation directory.
+
+Test Adapter for Google Test   1.0
+Enables Visual Studio's testing tools with unit tests written for Google Test.  The use terms and Third Party Notices are available in the extension installation directory.
+
+TypeScript Tools   17.0.31211.2001
+TypeScript Tools for Microsoft Visual Studio
+
+Visual Basic Tools   4.13.0-3.25105.4+400efa2d94b217101a0ca61e84a3812fdc2fec52
+Visual Basic components used in the IDE. Depending on your project type and settings, a different version of the compiler may be used.
+
+Visual F# Tools   17.13.0-beta.25056.5+63a09289745da5c256e7baf5f4194a750b1ec878
+Microsoft Visual F# Tools
+
+Visual Studio IntelliCode   2.2
+AI-assisted development for Visual Studio.
