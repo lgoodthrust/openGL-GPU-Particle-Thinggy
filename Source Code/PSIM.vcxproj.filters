@@ -20,6 +20,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="particle_compute.glsl" />
+    <None Include="compute_shader.glsl" />
+    <None Include="vertex_shader.glsl" />
+    <None Include="fragment_shader.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
   </ItemGroup>
 </Project>
