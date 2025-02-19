@@ -1,0 +1,30 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+C:/Users/gogoz/source/repos/GPU_PSIM/PSIM/CMakeLists.txt
+C:/Users/gogoz/source/repos/GPU_PSIM/PSIM/stuff/vcpkg/installed/x64-windows/share/imgui/imgui-config.cmake
+C:/Users/gogoz/source/repos/GPU_PSIM/PSIM/stuff/vcpkg/installed/x64-windows/share/imgui/imgui-targets-debug.cmake
+C:/Users/gogoz/source/repos/GPU_PSIM/PSIM/stuff/vcpkg/installed/x64-windows/share/imgui/imgui-targets-release.cmake
+C:/Users/gogoz/source/repos/GPU_PSIM/PSIM/stuff/vcpkg/installed/x64-windows/share/imgui/imgui-targets.cmake
+C:/Users/gogoz/source/repos/GPU_PSIM/PSIM/x64/cmake/CMakeFiles/3.29.6/CMakeCCompiler.cmake
+C:/Users/gogoz/source/repos/GPU_PSIM/PSIM/x64/cmake/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake
+C:/Users/gogoz/source/repos/GPU_PSIM/PSIM/x64/cmake/CMakeFiles/3.29.6/CMakeRCCompiler.cmake
+C:/Users/gogoz/source/repos/GPU_PSIM/PSIM/x64/cmake/CMakeFiles/3.29.6/CMakeSystem.cmake
