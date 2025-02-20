@@ -10,7 +10,11 @@ layout (local_size_x = 256) in;
 struct Particle {
     vec4 position;
     vec4 velocity;
-};
+    int flagActive;    // Use a name that is not reserved.
+    int pad0;          // Padding for std430 alignment.
+    int pad1;
+    int pad2;
+};  // <-- Make sure the struct ends with a semicolon.
 
 layout (std430, binding = 0) buffer Particles {
     Particle particles[];
@@ -40,7 +44,7 @@ uniform float repulsionStrength;
 
 // Particle interactions
 uniform float repulsionRadius = 0.01;
-uniform float repulsionForce = 0.01;
+uniform float repulsionForce = 1.0;
 
 ivec3 getCell(vec3 pos) {
     return clamp(ivec3((pos - boxMin) / CELL_SIZE), ivec3(0), ivec3(GRID_SIZE - 1));
@@ -71,8 +75,12 @@ void main() {
     uint i = gl_GlobalInvocationID.x;
     if (i >= PARTICLE_COUNT) return;
 
-    // Update velocity with gravity and damping in one step.
-    particles[i].velocity.xyz = (particles[i].velocity.xyz + gravity * dt) * 0.999;
+    // Skip processing for inactive particles.
+    if (particles[i].flagActive == 0)
+        return;
+
+    // Update velocity with gravity and damping.
+    particles[i].velocity.xyz = (particles[i].velocity.xyz + gravity * dt) * 0.98;
 
     // Compute spatial grid cell for this particle.
     ivec3 cell = getCell(particles[i].position.xyz);

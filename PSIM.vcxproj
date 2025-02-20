@@ -146,12 +146,13 @@
     <ClCompile Include="stuff\vcpkg\installed\x64-windows\include\backends\imgui_impl_opengl3.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="compute_shader.glsl" />
-    <None Include="fragment_shader.glsl" />
-    <None Include="vertex_shader.glsl" />
+    <Text Include="CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="CMakeLists.txt" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PSIM.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
